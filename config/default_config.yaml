@@ -1,0 +1,14 @@
+input_type: raw
+fs: 200
+session: 1
+protocols: [S0, S1, S2]
+k_list: [1, 2, 3]
+source_epochs: 50
+cal_epochs: 10
+batch_size: 64
+lr: 0.001
+tau: 0.8
+alpha: 1.0
+beta: 1.0
+lambda_cmmd: 1.0
+seed: 42
